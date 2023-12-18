@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Individual</title>
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&family=Sofia+Sans+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,1;1,100;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <div><img src="/Assets/images/Logo.png" alt="Logo" /></div>
+        <div><h1>For Individuals</h1></div>
+        <div>
+          <p class="intro">
+            Start benefiting from the wellness experience. For companies looking
+            on increasing productivity, and improving organization wellness.
+          </p>
+        </div>
+        <div class="mobile-box">
+          <p class="intro intro2">Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+        </div>
+        
+      </div>
+
+      <div class="form-container">
+        <form action="#" method="post">
+          <div class="column">
+            <div>
+              <label for="first-name">First Name</label>
+              <input
+                class="first-input"
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="Tolu"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="last-name" >Last Name</label>
+              <input
+                
+                type="text"
+                id="last-name"
+                name="last-name"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="column">
+            <div>
+              <label for="gender" >Gender</label>
+              <select id="gender" class="second-row" required>
+                <option value="" hidden>Select here</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="dob">Date of Birth</label>
+              <input
+                class="second-row"
+                type="text"
+                onfocus="this.type= 'date'"
+                onblur="this.type='text'"
+                id="dob"
+                name="dob"
+                placeholder="Select here"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="column">
+            <div>
+              <label for="weight">Weight(kG)</label>
+              <input
+            
+                type="number"
+                id="weight"
+                name="weight"
+                placeholder="Enter Weight"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="height">Height(CM)</label>
+              <input
+              
+                type="number"
+                id="height"
+                name="height"
+                placeholder="Enter height here.."
+                required
+              />
+            </div>
+          </div>
+
+          <div>
+            <label for="activity-level">Activity Level</label>
+            <select id="activity-level" class="first" required>
+              <option value="" hidden>Select here</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" class="first" required />
+          </div>
+
+          <div><button type="submit" class="button">Register</button></div>
+
+          <div>
+            <p class="footer">By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a></p>
+          </div>
+        </form>
+      </div>
+
+      <div class="foot">
+        <p class="footer footer2">By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a></p>
+      </div>
+
+      
+    </div>
+  </body>
+</html>
